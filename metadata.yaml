@@ -1,0 +1,11 @@
+name: astrbot_plugin_followup_banter
+display_name: 追问补刀
+short_desc: 被吐槽回怼后偶尔追加一条追问，10 次对话触发 1-2 次
+desc: 私聊对话中，当用户调侃（胖/肥/傻/菜/懒等）而林小瞒回怼（你才是/我这是正常等）时，约 15% 概率在回复发出后隔 1-3 秒追加一条追问补刀，让斗嘴更自然。
+help: |-
+  无需命令。自动生效于私聊斗嘴场景。
+  可调概率：改 main.py 中 _FOLLOWUP_PROBABILITY（默认 0.15）。
+version: v1.0.0
+author: kulat55
+support_platforms:
+  - aiocqhttp
